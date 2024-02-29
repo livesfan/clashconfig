@@ -6,11 +6,11 @@ log-level: info
 ipv6: true
 external-controller: :9090
 # > 机场流量信息
-subscribe-url: https://subbs.susuda.sslcdnapp.net/link/oejKT9Dj60byU7DL?sub=3&extend=1
+subscribe-url: 
 proxy-providers:
   All:
     type: http
-    url: "https://api.suda-cdn.com/sub?target=clash&url=https://subbs.susuda.sslcdnapp.net/link/oejKT9Dj60byU7DL?clash=2&new_name=true"
+    url: "#订阅地址"
     interval: 86400
     path: ./all.yaml
     health-check:
